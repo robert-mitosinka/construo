@@ -1,0 +1,8 @@
+az postgres flexible-server create \
+  --resource-group myResourceGroup \
+  --name mypgserver \
+  --location westeurope \
+  --admin-user myadmin \
+  --admin-password MyPassword123 \
+  --sku-name Standard_B1ms \
+  --storage-size 32
