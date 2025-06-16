@@ -7,7 +7,7 @@ import sys
 
 sys.path.append("/home/robert/construo/airflow")  # Update this path
 
-from ..app.py import quick_sort
+from ..app import quick_sort
 
 main_run = quick_sort
 
