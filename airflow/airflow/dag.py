@@ -1,7 +1,7 @@
 from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
-from my_script import create_test_data
+from init import create_test_data
 
 default_args = {
     'owner': 'airflow',
